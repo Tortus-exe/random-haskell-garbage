@@ -2,6 +2,7 @@ module Main where
 
 import Solutions.D1
 import Solutions.D2
+import Solutions.D3
 
 import System.IO
 import System.Environment
@@ -12,11 +13,15 @@ errorMessage = unlines $ ["invalid input! Please input formatted:",
 
 solutionsPart1Table = [
             solveD1P1,
-            solveD2P1]
+            solveD2P1,
+            solveD3P1
+                      ]
 
 solutionsPart2Table = [
             solveD1P2,
-            solveD2P2]
+            solveD2P2,
+            solveD3P2
+                      ]
 
 main :: IO ()
 main = do
