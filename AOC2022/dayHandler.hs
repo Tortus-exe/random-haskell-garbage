@@ -4,6 +4,7 @@ import Solutions.D1
 import Solutions.D2
 import Solutions.D3
 import Solutions.D4
+import Solutions.D5
 
 import System.IO
 import System.Environment
@@ -16,14 +17,16 @@ solutionsPart1Table = [
             solveD1P1,
             solveD2P1,
             solveD3P1,
-            solveD4P1
+            solveD4P1,
+            solveD5P1
                       ]
 
 solutionsPart2Table = [
             solveD1P2,
             solveD2P2,
             solveD3P2,
-            solveD4P2
+            solveD4P2,
+            solveD5P2
                       ]
 
 main :: IO ()
