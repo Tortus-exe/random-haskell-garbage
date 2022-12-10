@@ -9,6 +9,7 @@ import Solutions.D6
 import Solutions.D7
 import Solutions.D8
 import Solutions.D9
+import Solutions.D10
 
 import System.IO
 import System.Environment
@@ -26,7 +27,8 @@ solutionsPart1Table = [
             solveD6P1,
             solveD7P1,
             solveD8P1,
-			solveD9P1
+            solveD9P1,
+            solveD10P1
                       ]
 
 solutionsPart2Table = [
@@ -38,7 +40,8 @@ solutionsPart2Table = [
             solveD6P2,
             solveD7P2,
             solveD8P2,
-			solveD9P2
+            solveD9P2,
+            solveD10P2
                       ]
 
 main :: IO ()
