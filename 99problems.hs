@@ -57,5 +57,5 @@ goldbachList' a b c=[ (x,y)|(x,y)<-goldbachList a b, x>50 && (y>50)]
 -- 54A~60
 -- there is no problem 54.
 -- 55 is really confusing lol
-symmetric (Branch _ a b)=a==b;symmetric Empty=True
-
+symmetric (Branch _ a b)=a==b;symmetric Empty=True -- THIS IS WRONG
+construct[]=Empty;construct(x:xs)=Branch x(construct[k|k<-xs,k<x])(construct[k|k<-xs,k>x])
